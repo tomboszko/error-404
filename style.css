@@ -6,15 +6,19 @@
 }
 
 body {
-    background-color: rgb(139, 141, 148);
+    background-color: rgb(221, 223, 230);
+
 }
+
 .txt {
     height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(232, 227, 236);
     
+
 }
 
 .btn {
@@ -24,4 +28,26 @@ body {
     flex-direction: column;
     align-items: center;
 
+}
+.anim{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+    animation-name: ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 50px;
+
+}
+
+@keyframes ani {
+    0% {background-color: rgb(236, 119, 217);}
+    25% { background-color: rgb(10, 214, 163);}
+    50% { background-color: rgb(166, 98, 230) ;}
+    100% { background-color: aqua;}
+    
 }
