@@ -4,6 +4,9 @@
     src: url(assets/fonts/Poppins-Regular.ttf);
 }
 
+@media only screen and (min-width:1024px) and (max-width:2560px) {
+    
+
 body {
     background-color: #0001AA;
     width: 100vw;
@@ -15,6 +18,8 @@ body {
     color: aliceblue;
     text-align: center;
     align-items: center;
+    font-size: 60px;
+    position: fixed;
 }
 
 .topColumns {
@@ -198,12 +203,29 @@ body {
    
 }
 
+}
   
-  
-  
+@media only screen and (max-width:1024px) {
 
-  
-
+    body {
+   background-color: blue; 
+    }
+    .nosignal {
+        width:380px;
+        margin: auto;
+        margin-top: 250px;
+        height: 72px;
+        font-family: 'poppins';
+        font-size: 72px;
+        line-height: 72px;
+        font-weight: 900;
+        color: #1eff00;
+        background-color: #1A1A1B;
+    
+    }
+    
+    
+}
 
 /* @keyframes button {
     0% {background-color: rgb(236, 119, 217);}
